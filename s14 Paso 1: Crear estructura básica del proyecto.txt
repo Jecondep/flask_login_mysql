@@ -1,0 +1,8 @@
+mkdir flask_login_mysql
+cd flask_login_mysql
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# o
+venv\Scripts\activate  # Windows
+
+pip install flask flask-login mysql-connector-python
